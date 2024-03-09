@@ -1,0 +1,2 @@
+# zournal
+journal for genz
