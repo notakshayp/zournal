@@ -1,0 +1,11 @@
+.animate-ping {
+    animation: custom-ping 3s ease-in-out infinite;
+  }
+  
+  @keyframes custom-ping {
+    80%, 100% {
+      transform: scale(2);
+      opacity: 30%;
+    }
+  }
+  

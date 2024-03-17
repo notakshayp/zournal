@@ -1,0 +1,6 @@
+@for (emoji of this.emojiArr; track emoji){
+
+    <span class="animate-ping z-10 absolute cursor-default emoji opacity-100 transition delay-150	" [ngClass] = "emoji.randomTextSize" [style.left.px]="emoji.randomX"
+    [style.top.px]="emoji.randomY" [style.transform]="'rotate(' + emoji.randomRotation + 'deg)'">{{emoji.emojiVal}} </span>
+
+}
